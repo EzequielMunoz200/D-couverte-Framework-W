@@ -17,8 +17,6 @@ class DefaultController extends Controller
 
 		$galleries = $option->getGallery();
 
-		/* file_get_contents ($filename); */
-
 		return $this->render('default/home', [
 			'galleries' => $galleries,
 		]);
