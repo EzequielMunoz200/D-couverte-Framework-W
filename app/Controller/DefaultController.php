@@ -3,6 +3,7 @@
 namespace Controller;
 
 use \W\Controller\Controller;
+use Model\OptionModel as ModelOptionModel;
 
 class DefaultController extends Controller
 {
@@ -12,7 +13,15 @@ class DefaultController extends Controller
 	 */
 	public function home()
 	{
-		return $this->render('default/home');
+		$option = new ModelOptionModel();
+
+		$galleries = $option->getGallery();
+
+		/* file_get_contents ($filename); */
+
+		return $this->render('default/home', [
+			'galleries' => $galleries,
+		]);
 	}
 
 	/**

@@ -1,11 +1,23 @@
 html, body {
 	font-family: Consolas, monaco, monospace;
-	background-color: #272822;
-	color: #F8F8F2;
+	/* background-color: #272822; */
+	color: black;
+	width: 100vw;
+	height: 100vh;
 }
 
 .container {
-	margin: 50px;
+	height: 100%;
+}
+
+
+section{
+	height: 100%;
+}
+
+
+.input-field{
+	height: 25px;
 }
 
 a {
