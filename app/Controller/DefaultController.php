@@ -16,7 +16,7 @@ class DefaultController extends Controller
 	}
 
 	/**
-	 * Page d'blog
+	 * Page de blog
 	 */
 	public function blog()
 	{
