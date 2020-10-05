@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="input-field col s12">
 			<select placeholder="none">
-				<option value="" disabled selected>Choisisez votre choix</option>
+				<option value="" disabled selected>Choisissez votre choix</option>
 				<?php 
 				
 				foreach ($galleries as $key => $gallery) {
